@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patagonia - Camping gear </title>
+    <link rel="stylesheet" href="Style Patagonia.css">
 </head>
-<body>
-    <header>
+<body class="body">
+    <header id="header">
         <nav>
-            <div>
+            <div class="buttons">
              <button><a href="https://www.patagonia.com/home/" target="_blank" > Shop</a></button> 
              <button><a href="https://www.patagonia.com/home/"target="_blank">Women cloths</a></button>
              <button><a href="https://www.patagonia.com/home/"target="_blank">Men cloths</a></button>
@@ -23,14 +24,16 @@
         </nav>
     </header>
 <br>
-    <main>
+    <main class="main">
         <img src="images/Patagonia logo.jpg" alt="patagonia-logo">
+        <div id="motto">
 <h3>
     <dl>
         <dt><i>Our Core Values</i></dt>
         <dd><i>Build the best product, provide the best service and constantly improve everything we do</i></dd>
     </dl>
-</h3> <br>
+</h3>
+</div> <br>
 <img src="images/Men.jpg" alt="Men" width="150" height="150">
 <img src="images/women.jpg" alt="women" width="150" height="150">
 <img src="images/kids.jpg" alt="kids" width="150" height="150">
@@ -40,7 +43,7 @@
 <br>   
 </main>
 
-    <footer>
+    <footer class="footer">
         <form>
 <h2><dl>
     <dt>Your opinion matters!</dt>
@@ -50,13 +53,14 @@
     <button>Submit</button>
     <p> <b>Please leave your information so we can inform you about the incoming discounts and offers so you wouldn't miss anything!  </b></p> 
     <!-- i used the bold text just to see this sentence better -->
-    <label> Insert your Name</label>
+     <div>
+    <label class="form_label"> Insert your Name</label>
     <input type="text" placeholder="Your name">  <br> <br>
-    <label> Insert your Email</label>
+    <label class="form_label"> Insert your Email</label>
     <input type="email" placeholder="Email"> <br> <br>
-    <label> Insert your Phone Number</label>
+    <label class="form_label"> Insert your Phone Number</label>
     <input type="tel"  placeholder="Phone number"> <br>  <br>
-    <label> Select your Age group</label>
+    <label class="form_label"> Select your Age group</label>
      <select name="Average age" >
         <option >Select your age group</option>
         <option>Under 20</option>
@@ -65,6 +69,7 @@
         <option>Over 60</option>
         </select> <br> <br>
      <button>Submit</button>
+    </div>
      <!-- i used br twice just to give it a nice look, i wont use that again when i learn CSS -->
 </form>
     </footer>

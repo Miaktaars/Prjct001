@@ -1,0 +1,6 @@
+#header {background-color: rgba(233, 105, 216, 0.199);}
+.body {background-color: rgba(15, 221, 15, 0.336);}
+.footer {background-color: rgba(165, 42, 42, 0.452);}   
+#motto {background-color: aquamarine;}
+.form_label {color: darkblue;}
+div > .form_label { background-color: rgba(0, 0, 0, 0.133);}
